@@ -1,7 +1,5 @@
 # Citi Bike Analytics: Ride and User Data from Fall 2019 and Fall 2020
 
----
-
 For this assignment, I was tasked with aggregating the data found in the [Citi Bike Trip History Logs](https://ride.citibikenyc.com/system-data) and finding two unexpected phenomena.
 
 I chose to look at the months of September, October, and November in 2019 and 2020 to see how fall ridership changed with the COVID-19 pandemic. To get started, I downloaded the six separate CSV files (one for each month), read them into Pandas as DataFrames, and then concatenated them into one new CSV file. The headers in the Citi Bike CSVs were all still consistent during this time frame, but have since changed.
